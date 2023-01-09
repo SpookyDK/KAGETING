@@ -1,0 +1,15 @@
+/home/esben/Programmering/KAGETING/bin/Debug/net6.0/KAGETING
+/home/esben/Programmering/KAGETING/bin/Debug/net6.0/KAGETING.deps.json
+/home/esben/Programmering/KAGETING/bin/Debug/net6.0/KAGETING.runtimeconfig.json
+/home/esben/Programmering/KAGETING/bin/Debug/net6.0/KAGETING.dll
+/home/esben/Programmering/KAGETING/bin/Debug/net6.0/ref/KAGETING.dll
+/home/esben/Programmering/KAGETING/bin/Debug/net6.0/KAGETING.pdb
+/home/esben/Programmering/KAGETING/obj/Debug/net6.0/KAGETING.csproj.AssemblyReference.cache
+/home/esben/Programmering/KAGETING/obj/Debug/net6.0/KAGETING.GeneratedMSBuildEditorConfig.editorconfig
+/home/esben/Programmering/KAGETING/obj/Debug/net6.0/KAGETING.AssemblyInfoInputs.cache
+/home/esben/Programmering/KAGETING/obj/Debug/net6.0/KAGETING.AssemblyInfo.cs
+/home/esben/Programmering/KAGETING/obj/Debug/net6.0/KAGETING.csproj.CoreCompileInputs.cache
+/home/esben/Programmering/KAGETING/obj/Debug/net6.0/KAGETING.dll
+/home/esben/Programmering/KAGETING/obj/Debug/net6.0/ref/KAGETING.dll
+/home/esben/Programmering/KAGETING/obj/Debug/net6.0/KAGETING.pdb
+/home/esben/Programmering/KAGETING/obj/Debug/net6.0/KAGETING.genruntimeconfig.cache
