@@ -2,12 +2,14 @@
 
 {
 
-  
-  
+  static int Mål;
+  static int Opgave11Resultat;
+  static int[] Tal;
 
   static void Main()
 
   {
+    
     
       Thread thr1 = new Thread(Opgave11);
       Thread thr2 = new Thread(Opgave12);
@@ -17,6 +19,7 @@
       thr2.Start();
       thr3.Start();
       //thr4.Start();
+      
      
 
   }
@@ -24,22 +27,20 @@
   static void Opgave11()
 
     {
-        int[] Tal = {1, 4, 6 ,7 , 3, 3, 1};
-        int Mål = 11;
-
-    
+        
         for (int i = 0; i < Tal.Length; i++)
         {
             if (Tal[i] == Mål)
                 {
-                    Console.Write(" Opgave 1 = " + i);
+                    Opgave11Resultat = i;
                     goto Complete;
                 }
         }
-        Console.Write(" Opgave 1 = NONE");
+        Console.Write("Opgave 1 = NONE");
         Complete:;
-    
-    
+        Console.WriteLine("Opgave11 = DONE");
+        
+        
     }
   
   
