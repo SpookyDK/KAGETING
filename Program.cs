@@ -2,29 +2,29 @@
 
 {
 
-  static int Mål;
+  
   static int Opgave11Resultat;
-  static int[] Tal;
+  static int[] Tal = {1, 2, 3, 3};
 
   static void Main()
 
   {
     
+    Opgave11(3);
+    Opgave12();
+    Opgave13();
     
-      Thread thr1 = new Thread(Opgave11);
-      Thread thr2 = new Thread(Opgave12);
-      Thread thr3 = new Thread(Opgave13);
-      Thread thr4 = new Thread(Opgave22);
-      thr1.Start();
-      thr2.Start();
-      thr3.Start();
-      //thr4.Start();
-      
      
+      
+      
+      
+      
+
+    
 
   }
 
-  static void Opgave11()
+  static void Opgave11(int Mål)
 
     {
         
@@ -32,13 +32,13 @@
         {
             if (Tal[i] == Mål)
                 {
-                    Opgave11Resultat = i;
+                    int Opgave11Resultat = i;
                     goto Complete;
                 }
         }
         Console.Write("Opgave 1 = NONE");
         Complete:;
-        Console.WriteLine("Opgave11 = DONE");
+        Console.WriteLine("Opgave11 = DONE , og index er = " + Opgave11Resultat);
         
         
     }
@@ -137,6 +137,11 @@
         Console.WriteLine("opgave22 er " + Pos);
         
 
+    }
+    public int KanelSnegl(int mål)
+    {
+        
+        return 10;
     }
 
 }
