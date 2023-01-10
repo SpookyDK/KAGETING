@@ -9,10 +9,11 @@
   static void Main()
 
   {
-    int[] Tal = {1, 2, 3, 3};
+    int[] Tal = {1, 2, 3, 3, 4, 6, 7, 1};
     Opgave11(3, Tal);
     Opgave12();
     Opgave13();
+    ListeAdd(new List<int> {10, 20, 30}, 40, 15);
     
      
       
@@ -144,6 +145,18 @@
         
         return 10;
     }
-    //Metode er en samling af instrukser, den kan tage og returnere værdier. Skrives som void, int, double og andet. Return bruges til at afslutte og sende værdier tilbage.
-    //Metoder er gode at bruge til sekvens af instrukser som skal gentages flere gange, de tillader en mere fleksibel kode og en mere vedligeholdbar kode.
+    //Metode er en samling af instrukser, den kan tage og 
+    //returnere værdier. Skrives som void, int, double og andet. Return bruges til at afslutte og sende værdier tilbage.
+    //Metoder er gode at bruge til sekvens af instrukser som skal 
+    //gentages flere gange, de tillader en mere fleksibel kode og en mere vedligeholdbar kode.
+    static void ListeAdd(List<int> MyList, int Tal1, int Tal2)
+    {
+        Console.WriteLine();
+        MyList.Add(Tal1);
+        MyList.Insert(1, Tal2);
+        foreach (var item in MyList)
+        {
+            Console.Write(item+", ");
+        }
+    }
 }
