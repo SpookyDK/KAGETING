@@ -4,17 +4,18 @@
 
   
   static int Opgave11Resultat;
-  static int[] Tal = {1, 2, 3, 3};
+  
 
   static void Main()
 
   {
-    
-    Opgave11(3);
+    int[] Tal = {1, 2, 3, 3};
+    Opgave11(3, Tal);
     Opgave12();
     Opgave13();
     
      
+      
       
       
       
@@ -24,7 +25,7 @@
 
   }
 
-  static void Opgave11(int Mål)
+  static void Opgave11(int Mål, int[] Tal)
 
     {
         
