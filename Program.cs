@@ -15,8 +15,8 @@
     Opgave13();
     Opgave3_1(new List<int> {10, 20, 30}, 40, 15);
     Opgave3_2(new List<char> {'S','n','a','k','k','e',' ','B','a','g','v','e','n','d','t'});
-    
-     
+    Opgave4_1(new Dictionary<string, string>() {    {"kage", "kanel"}, {"docx", "Word"},{"mp3", "Foobar"},   {"flac", "Foobar"},   {"Mp4", "GoFuckYourSelf"}});
+    Opgave5_1();
       
       
       
@@ -184,10 +184,39 @@ static void Opgave3_2(List<char> MyList)
         Console.WriteLine();
 }
 
-static void Opgave4_1()
+static void Opgave4_1(Dictionary<string, string> MyDick)
 {
-
+    Console.WriteLine();
+    Console.WriteLine("Mp4 åbenes i " + MyDick["Mp4"]);
 }
 
+
+static void Opgave5_1()
+{
+    Stack<int> MyStack = new Stack<int>();
+    Stack<char> MyStackChar = new Stack<char>();
+    string Ord = "Snakke bagvendt";
+    for (int i = 1; i <= 10 ; i++)
+    {
+        MyStack.Push(i);
+    }
+    Console.WriteLine(MyStack.Pop());
+
+    while(MyStack.Count > 0)
+    {
+        Console.Write(MyStack.Pop() + ", ");   
+    }
+    
+    foreach (var item in Ord)
+    {
+        MyStackChar.Push(item);
+    }
+    Console.WriteLine();
+    while(MyStackChar.Count > 0)
+    {
+        Console.Write(MyStackChar.Pop());   
+    }
+    Console.WriteLine();
+}
 
 }
