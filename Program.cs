@@ -10,9 +10,9 @@
 
   {
     int[] Tal = {1, 2, 3, 3, 4, 6, 7, 1};
-    Opgave11(3, Tal);
-    Opgave12();
-    Opgave13();
+    Opgave1_1(3, Tal);
+    Opgave1_2();
+    Opgave1_3();
     Opgave3_1(new List<int> {10, 20, 30}, 40, 15);
     Opgave3_2(new List<char> {'S','n','a','k','k','e',' ','B','a','g','v','e','n','d','t'});
     Opgave4_1(new Dictionary<string, string>() {    {"kage", "kanel"}, {"docx", "Word"},{"mp3", "Foobar"},   {"flac", "Foobar"},   {"Mp4", "GoFuckYourSelf"}});
@@ -27,7 +27,7 @@
 
   }
 
-  static void Opgave11(int Mål, int[] Tal)
+  static void Opgave1_1(int Mål, int[] Tal)
 
     {
         int Opgave11Resultat = 0;
@@ -48,7 +48,7 @@
   
   
   
-    static void Opgave12()
+    static void Opgave1_2()
 
     {
        int Fund = 0;
@@ -85,7 +85,7 @@
     
     }
 
-    static void Opgave13()
+    static void Opgave1_3()
     {
        int Fund = 0;
        int indexgoal = 5;
@@ -118,7 +118,7 @@
        }
     }
 
-    static void Opgave22()
+    static void Opgave2_2()
     {
         int Mål = 8;
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
