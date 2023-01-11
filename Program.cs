@@ -30,18 +30,18 @@
   static void Opgave1_1(int Mål, int[] Tal)
 
     {
-        int Opgave11Resultat = 0;
-        for (int i = 0; i < Tal.Length; i++)
-        {
-            if (Tal[i] == Mål)
+         int zeIndex = -1;
+            for (int i = 0; i < Tal.Length; i++)
+            {
+                if (Tal[i] == Mål)
                 {
-                    Opgave11Resultat = i;
-                    goto Complete;
+                    zeIndex = i;
+                    break;
                 }
-        }
-        Console.Write("Opgave 1 = NONE");
-        Complete:;
-        Console.WriteLine("Opgave11 = DONE , og index er = " + Opgave11Resultat);
+            }
+            Console.WriteLine("Opgave1_1" );
+            Console.WriteLine(Mål);
+            
         
         
     }
@@ -69,7 +69,7 @@
             }
        }
         Console.WriteLine();
-        Console.WriteLine("Opgave2 =");
+        Console.WriteLine("Opgave1_2 =");
        foreach (var item in Array)
        {
         Console.Write(item + ", ");
@@ -105,8 +105,9 @@
                 ArrayRemoved[i] =  Indsæt;
             }
        }
+       Console.WriteLine();
         Console.WriteLine();
-        Console.WriteLine("Opgave3 =");
+        Console.WriteLine("Opgave1_3 =");
        foreach (var item in Array)
        {
         Console.Write(item + ", ");
@@ -120,6 +121,8 @@
 
     static void Opgave2_2()
     {
+        Console.WriteLine();
+        Console.WriteLine("Opgave2_2");
         int Mål = 8;
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int Pos = array.Length / 2;
@@ -154,6 +157,9 @@
 
     {
         Console.WriteLine();
+        Console.WriteLine();
+        Console.WriteLine("Opgave3_1");
+        
         MyList.Add(Tal1);
         MyList.Insert(1, Tal2);
         foreach (var item in MyList)
@@ -171,6 +177,9 @@
 static void Opgave3_2(List<char> MyList)
 {
     Console.WriteLine();
+    Console.WriteLine();
+    Console.WriteLine("Opgave3_2");
+    
     foreach (var item in MyList)
         {
             Console.Write(item);
@@ -187,12 +196,16 @@ static void Opgave3_2(List<char> MyList)
 static void Opgave4_1(Dictionary<string, string> MyDick)
 {
     Console.WriteLine();
+    Console.WriteLine("Opgave4_1");
+    
     Console.WriteLine("Mp4 åbenes i " + MyDick["Mp4"]);
 }
 
 
 static void Opgave5_1()
 {
+    Console.WriteLine();
+    Console.WriteLine("Opgave5_1");
     Stack<int> MyStack = new Stack<int>();
     Stack<char> MyStackChar = new Stack<char>();
     string Ord = "Snakke bagvendt";
