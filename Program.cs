@@ -17,6 +17,7 @@
     Opgave3_2(new List<char> {'S','n','a','k','k','e',' ','B','a','g','v','e','n','d','t'});
     Opgave4_1(new Dictionary<string, string>() {    {"kage", "kanel"}, {"docx", "Word"},{"mp3", "Foobar"},   {"flac", "Foobar"},   {"Mp4", "GoFuckYourSelf"}});
     Opgave5_1();
+    Opgave6_1();
       
       
       
@@ -232,4 +233,20 @@ static void Opgave5_1()
     Console.WriteLine();
 }
 
+static void Opgave6_1()
+{
+    Console.WriteLine();
+    Console.WriteLine("Opgave6_1");
+
+    Queue<int> MinKø = new Queue<int>();
+
+    for (int i = 1; i <= 5; i++)
+    {
+        MinKø.Enqueue(i);
+    }
+    Console.WriteLine(MinKø.Peek());
+    
+
+
+}
 }
