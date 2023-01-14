@@ -28,7 +28,7 @@
 
   }
 
-  static void Opgave1_1(int Mål, int[] Tal)
+static void Opgave1_1(int Mål, int[] Tal)
 
     {
          int zeIndex = -1;
@@ -49,7 +49,7 @@
   
   
   
-    static void Opgave1_2()
+static void Opgave1_2()
 
     {
        int Fund = 0;
@@ -86,7 +86,7 @@
     
     }
 
-    static void Opgave1_3()
+static void Opgave1_3()
     {
        int Fund = 0;
        int indexgoal = 5;
@@ -120,7 +120,7 @@
        }
     }
 
-    static void Opgave2_2()
+static void Opgave2_2()
     {
         Console.WriteLine();
         Console.WriteLine("Opgave2_2");
@@ -145,7 +145,7 @@
         
 
     }
-    public int KanelSnegl(int mål)
+public int KanelSnegl(int mål)
     {
         
         return 10;
@@ -154,7 +154,7 @@
     //returnere værdier. Skrives som void, int, double og andet. Return bruges til at afslutte og sende værdier tilbage.
     //Metoder er gode at bruge til sekvens af instrukser som skal 
     //gentages flere gange, de tillader en mere fleksibel kode og en mere vedligeholdbar kode.
-    static void Opgave3_1(List<int> MyList, int Tal1, int Tal2)
+static void Opgave3_1(List<int> MyList, int Tal1, int Tal2)
 
     {
         Console.WriteLine();
