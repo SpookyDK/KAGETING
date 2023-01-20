@@ -15,7 +15,7 @@
     Opgave1_3();
     Opgave3_1(new List<int> {10, 20, 30}, 40, 15);
     Opgave3_2(new List<char> {'S','n','a','k','k','e',' ','B','a','g','v','e','n','d','t'});
-    Opgave4_1(new Dictionary<string, string>() {    {"kage", "kanel"}, {"docx", "Word"},{"mp3", "Foobar"},   {"flac", "Foobar"},   {"Mp4", "GoFuckYourSelf"}});
+    Opgave4_1(new Dictionary<string, string>() {    {"kage", "Linux Terminal"}, {"docx", "Linux Terminal"},{"mp3", "Linux Terminal"},   {"flac", "Linux Terminal"},   {"Mp4", "Linux Terminal"}});
     Opgave5_1();
     Opgave6_1();
       

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rh+QyTCs28BHdG5AhJ+TL73lNON2df/N1uj7scStUGs3H8JHKtovsi+2SGaPdXEKXbMFLyiYayUpmhj/ckr9Dw==",
+  "dgSpecHash": "iVfKSTT2QOttPKFl/pSVt0eiUAn/fAHzJvnGixkRXxsrnPf8xDq/UligaKsHNTUR9odtcytdGLb1I0ZmQcIG1g==",
   "success": true,
   "projectFilePath": "/home/esben/Programmering/KAGETING/KAGETING.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/esben/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "/home/esben/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "/home/esben/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.13/microsoft.netcore.app.host.linux-x64.6.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
